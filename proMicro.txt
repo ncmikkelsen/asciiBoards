@@ -5,15 +5,15 @@ Created by Niels Bak Henriksen ([NBAKH](https://github.com/NBAKH))
    +------|USB|-----+
    | [J1] +---+     |
  TX| [ ]1       [ ] |RAW
- RX| [ ]0   p   [ ] |GND
-GND| [ ]    r   [ ] |RST
-GND| [ ]    o   [ ] |VCC
+ RX| [ ]0       [ ] |GND
+GND| [ ]        [ ] |RST
+GND| [ ]        [ ] |VCC
 SDA| [ ]2     21[ ] |A3
-SLA|~[ ]3   m 20[ ] |A2
- A6| [ ]4   i 19[ ] |A1
-   |~[ ]5   c 18[ ] |A0
- A7|~[ ]6   r 15[ ] |SCLK
-   | [ ]7   o 14[ ] |MISO
+SCL|~[ ]3     20[ ] |A2
+ A6| [ ]4     19[ ] |A1
+   |~[ ]5     18[ ] |A0
+ A7|~[ ]6     15[ ] |SCLK
+   | [ ]7     14[ ] |MISO
  A8| [ ]8     16[ ] |MOSI
  A9|~[ ]9     10[ ]~|A19
    +----------------+
